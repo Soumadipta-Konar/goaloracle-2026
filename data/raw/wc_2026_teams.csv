@@ -1,17 +1,49 @@
 team,confederation,fifa_rank,host,group
-Argentina,CONMEBOL,1,0,A
-France,UEFA,2,0,A
-Brazil,CONMEBOL,5,0,A
-England,UEFA,4,0,A
-Spain,UEFA,8,0,B
-Portugal,UEFA,6,0,B
-Netherlands,UEFA,7,0,B
-Germany,UEFA,10,0,B
-USA,CONCACAF,16,1,C
-Mexico,CONCACAF,15,1,C
-Canada,CONCACAF,48,1,C
-Japan,AFC,18,0,C
-Morocco,CAF,13,0,D
-Croatia,UEFA,12,0,D
-Uruguay,CONMEBOL,11,0,D
-Colombia,CONMEBOL,14,0,D
+Mexico,CONCACAF,15,1,A
+Czech Republic,UEFA,41,0,A
+South Korea,AFC,25,0,A
+South Africa,CAF,60,0,A
+Canada,CONCACAF,30,1,B
+Bosnia and Herzegovina,UEFA,65,0,B
+Qatar,AFC,55,0,B
+Switzerland,UEFA,19,0,B
+Brazil,CONMEBOL,6,0,C
+Haiti,CONCACAF,83,0,C
+Morocco,CAF,8,0,C
+Scotland,UEFA,43,0,C
+United States,CONCACAF,16,1,D
+Australia,AFC,27,0,D
+Paraguay,CONMEBOL,40,0,D
+Turkey,UEFA,22,0,D
+Ivory Coast,CAF,34,0,E
+Curacao,CONCACAF,82,0,E
+Ecuador,CONMEBOL,23,0,E
+Germany,UEFA,10,0,E
+Japan,AFC,18,0,F
+Netherlands,UEFA,7,0,F
+Sweden,UEFA,38,0,F
+Tunisia,CAF,44,0,F
+Belgium,UEFA,9,0,G
+Egypt,CAF,29,0,G
+Iran,AFC,21,0,G
+New Zealand,OFC,85,0,G
+Cape Verde,CAF,69,0,H
+Saudi Arabia,AFC,61,0,H
+Spain,UEFA,2,0,H
+Uruguay,CONMEBOL,17,0,H
+France,UEFA,1,0,I
+Iraq,AFC,57,0,I
+Norway,UEFA,31,0,I
+Senegal,CAF,14,0,I
+Algeria,CAF,28,0,J
+Argentina,CONMEBOL,3,0,J
+Austria,UEFA,24,0,J
+Jordan,AFC,63,0,J
+Colombia,CONMEBOL,13,0,K
+DR Congo,CAF,46,0,K
+Portugal,UEFA,5,0,K
+Uzbekistan,AFC,50,0,K
+Croatia,UEFA,11,0,L
+England,UEFA,4,0,L
+Ghana,CAF,74,0,L
+Panama,CONCACAF,33,0,L

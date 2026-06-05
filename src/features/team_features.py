@@ -35,14 +35,14 @@ def create_match_features(
         "defense_diff": round(float(a["defense_index"] - b["defense_index"]), 2),
         "momentum_diff": round(float(a["momentum_index"] - b["momentum_index"]), 2),
 
-        "team_a_oracle": float(a["oracle_rating"]),
-        "team_b_oracle": float(b["oracle_rating"]),
+        "team_b_oracle": round(float(b["oracle_rating"])),
+        "team_a_oracle": round(float(a["oracle_rating"])),
 
-        "team_a_attack": float(a["attack_index"]),
-        "team_b_attack": float(b["attack_index"]),
+        "team_b_attack": round(float(b["attack_index"])),
+        "team_a_attack": round(float(a["attack_index"])),
 
-        "team_a_defense": float(a["defense_index"]),
-        "team_b_defense": float(b["defense_index"]),
+        "team_b_defense": round(float(b["defense_index"])),
+        "team_a_defense": round(float(a["defense_index"])),
 
         "team_a_host": int(a["host"]),
         "team_b_host": int(b["host"]),

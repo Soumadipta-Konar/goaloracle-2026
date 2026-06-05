@@ -25,7 +25,7 @@ def main():
     )
 
     print("\n=== Sample Match Features ===\n")
-    features = create_match_features(ratings, "Argentina", "France")
+    features = create_match_features(ratings, "Argentina", "England")
 
     for key, value in features.items():
         print(f"{key}: {value}")
