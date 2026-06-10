@@ -11,8 +11,6 @@ The goal was to build something closer to a sports analytics product, where the 
 
 ## Live Demo
 
-> Add deployed Streamlit link here.
-
 ```text
 https://goaloracle-2026.streamlit.app/
 ```
@@ -20,8 +18,6 @@ https://goaloracle-2026.streamlit.app/
 ---
 
 ## Preview
-
-> Add screenshot or demo GIF here.
 
 ```text
 assets/screenshots/goaloracle_ui.png
