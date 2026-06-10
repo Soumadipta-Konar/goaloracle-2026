@@ -14,7 +14,7 @@ The goal was to build something closer to a sports analytics product, where the 
 > Add deployed Streamlit link here.
 
 ```text
-https://your-streamlit-app-link.streamlit.app
+https://goaloracle-2026.streamlit.app/
 ```
 
 ---
