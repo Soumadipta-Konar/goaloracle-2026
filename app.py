@@ -11,6 +11,9 @@ sys.path.append(str(ROOT))
 from src.predictor import GoalOraclePredictor
 
 
+GITHUB_URL = "https://github.com/Soumadipta-Konar/goaloracle-2026"
+
+
 st.set_page_config(
     page_title="GoalOracle 2026",
     page_icon="⚽",
@@ -43,6 +46,30 @@ st.markdown(
         padding-top: 2.2rem;
         padding-bottom: 2rem;
         max-width: 1180px;
+    }
+
+    .top-nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 1.5rem;
+    }
+
+    .github-btn {
+        text-decoration: none;
+        color: #F5F5F7 !important;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        padding: 0.65rem 1.05rem;
+        border-radius: 999px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        backdrop-filter: blur(18px);
+        transition: 0.2s ease;
+    }
+
+    .github-btn:hover {
+        background: rgba(255, 255, 255, 0.14);
+        border: 1px solid rgba(255, 255, 255, 0.22);
     }
 
     .hero {
@@ -280,7 +307,7 @@ def scoreline_df(result):
     for item in result["top_scorelines"]:
         a, b = item["score"]
         rows.append({
-            "Scoreline": f'{a} - {b}',
+            "Scoreline": f"{a} - {b}",
             "Probability": f'{pct(item["probability"])}%'
         })
 
@@ -310,6 +337,17 @@ def explanation_df(result):
 
 predictor = load_predictor()
 teams = load_teams()
+
+st.markdown(
+    f"""
+    <div class="top-nav">
+        <a class="github-btn" href="{GITHUB_URL}" target="_blank">
+            View on GitHub ↗
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 st.markdown(
     """
