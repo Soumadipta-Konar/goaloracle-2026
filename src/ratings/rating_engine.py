@@ -3,25 +3,11 @@ import numpy as np
 
 
 def normalize_rank(rank: int, max_rank: int = 100) -> float:
-    """
-    Lower FIFA rank is better.
-    Rank 1 should get close to 100.
-    Rank 100 should get lower value.
-    """
     rank = max(1, min(rank, max_rank))
     return 100 * (1 - (rank - 1) / max_rank)
 
 
 def calculate_team_ratings(teams_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Create GoalOracle's initial team rating system.
-
-    Ratings:
-    - oracle_rating: overall team strength
-    - attack_index: estimated attacking strength
-    - defense_index: estimated defensive strength
-    - momentum_index: current/recent form proxy
-    """
 
     df = teams_df.copy()
 
@@ -49,8 +35,7 @@ def calculate_team_ratings(teams_df: pd.DataFrame) -> pd.DataFrame:
         + df["confed_bonus"]
     )
 
-    # Attack and defense are currently estimated from rank strength.
-    # Later we will replace these using historical goals scored/conceded.
+    
     df["attack_index"] = (
         0.90 * df["rank_strength"]
         + 0.60 * df["confed_bonus"]
